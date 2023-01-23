@@ -7,6 +7,6 @@ public class RouletteTest {
     @Test void rouletteHasIntValue(){
         Roulette classUnder = new Roulette();
         classUnder.setMaxValue(10);
-        assertEquals(10, classUnder.getMaxValue());
-    }
+        assertEquals(10, classUnder.getMaxValue());//seterrがgetterに反映されているかの確認
+       }
 }
