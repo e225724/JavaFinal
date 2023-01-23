@@ -28,7 +28,7 @@ public class ContentDisplay extends JFrame {//JFrameはswingのサブラクラ�
         jLabel.setText(showLetter.toString());//toStringメソッドはオブジェクトをテキストで表すための文字列を返すメソッドです。
 
         this.add(jLabel);
-        this.repaint();
+        this.repaint();//repaint()は、引数になにも指定しなかった場合、早急にコンポーネントのupdate()を呼び出します
     }
 
 
